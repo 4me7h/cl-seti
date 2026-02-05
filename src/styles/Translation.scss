@@ -1,0 +1,31 @@
+.translation {
+    &__list {
+        @include reset-list;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        &__item {
+            z-index: 1;
+            width: 49%;
+            @include media('lg') {
+                width: 24%;    
+            }
+        }
+    }
+    &__btn {
+        @include link {
+            display: block;
+            padding: 0.5rem 1rem;
+            border: 2px solid $color-primary;
+            border-radius: 0.5rem;
+            text-align: center;
+            color: $color-primary;
+            font-weight: $fw-6;
+            margin-bottom: 2rem;
+        }
+        @include hover {
+            background-color: $color-primary !important;
+            color: $color-white !important;
+        }
+    }
+}

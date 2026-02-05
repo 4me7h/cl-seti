@@ -1,0 +1,37 @@
+//colore 
+$color-alzarin: #e74c3c;
+$color-sun-flower: #f1c40f;
+$color-mine-shaft: #333333;
+$color-gallery: #ecf0f1;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-mazarine-blue: #273c75;
+$color-skirret-green: #44bd32;
+$color-nanohanacha-gold: #e1b12c;
+$color-double-dragon: #ff9f43;
+$color-primary: #0066FF;
+$color-secondary: #8A2BE2;
+$color-tertiary: #FFD700;
+$color-quaternary: #00FFCC;
+$color-black-secondary: #121212;
+
+//redes
+$color-facebook: #3b5998;
+$color-whatsapp: #25D366;
+
+$color-primary: $color-primary;
+$color-secondary: $color-secondary;
+$color-tertiary: $color-tertiary;
+$color-quaternary: $color-quaternary;
+$color-font: $color-mine-shaft;
+
+// Dark mode adaptations
+$dark-bg-primary: $color-primary;               // Azul original como fondo principal
+$dark-bg-secondary: lighten($color-primary, 10%); // #00285A (variante más clara del azul)
+$dark-surface: #1E1E1E;                  // Superficies y componentes
+$dark-text-primary: #F5F5F5;             // Texto principal (blanco ligeramente apagado)
+$dark-text-secondary: #B0B0B0;           // Texto secundario (gris claro)
+$dark-accent: $color-secondary;                   // Naranja original (buen contraste en oscuro)
+$dark-accent-hover: #FF8A65;             // Variante más clara para hover
+$dark-divider: #424242;                  // Líneas divisorias
+$dark-disabled: #616161;                 // Elementos deshabilitados
