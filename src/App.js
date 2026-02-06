@@ -1,7 +1,7 @@
 import './App.scss';
 import Hero from './components/Hero';
+import Header from './components/Header';
 // import About from './components/About';
-// import Header from './components/Header';
 // import Footer from './components/Footer';
 // import Contact from './components/Contact';
 // import Reseller from './components/Reseller';
@@ -14,7 +14,7 @@ function App() {
   return (
     <ParallaxProvider>
     <>
-      {/* <Header /> */}
+      <Header />
       <Hero />
       {/* <About /> */}
       {/* <Schedules /> */}

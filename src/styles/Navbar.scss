@@ -1,5 +1,5 @@
 .navBar {
-    background-color: $color-black;
+    background-color: $color-primary;
     padding: 1rem 0 1rem;
     &__container {
         width: 100%;
@@ -11,25 +11,27 @@
     //items 1 logo, 2 toggle, 3 navbar
     &__col {
         &:first-child {
-            text-align: center;
-            width: 100%;
-            // @include media('lg') {
-            //     width: 100%;
-            // }
+            text-align: left;
+            width: 50%;
+            @include media('lg') {
+                width: 50%;
+            }
         }
-        // &:nth-child(2) {
-        //     @include media('lg') {
-        //         display: none;
-        //     }
-        // }
-        // &:last-child {
-        //     width: 50%;
-        //     position: relative;
-        //     @include media('lg') {  
-        //         position: relative;
-        //         margin: 0.25rem 0;
-        //     }
-        // }
+        &:nth-child(2) {
+            width: 50%;
+            @include media('lg') {
+                display: none;
+            }
+        }
+        &:last-child {
+            width: 100%;
+            text-align: center;
+            @include media('lg') {  
+                width: 50%;
+                position: relative;
+                margin: 0.25rem 0;
+            }
+        }
     }
     
     &__brand {
@@ -88,6 +90,7 @@
     }
     &__toggle {
         background-color: $color-white;
+        margin-right: 0;
         border: none; 
         width: 3rem;
         height: 3rem;

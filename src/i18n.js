@@ -6,7 +6,7 @@ i18n.use(initReactI18next).init({
         es: {
             translation: {
                 "hero-title": "SE&TI CONSTRUCTION",
-                "hero-subtitle": "SE&TI REMODELING LLC is a company with 5 years of experience dedicated to",
+                "hero-subtitle": "SE&TI REMODELING LLC is a company with 5 years of experience",
                 "hero-mini": "Desde $250 al Mes",
 
                 'hero-01': "+1900 Canales de TV y Video on Demand siempre actualizado",
