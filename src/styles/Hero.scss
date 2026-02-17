@@ -21,8 +21,10 @@
     //hero contenidos
     &__content {
         display: flex;
+        justify-content: center;
         @include media('md') {
             align-items: center;
+            text-align: center;
         }
         &__header {
             position: relative;   

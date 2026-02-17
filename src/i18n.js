@@ -78,9 +78,9 @@ i18n.use(initReactI18next).init({
         },
         en: {
             translation: {
-                "hero-title": "Enjoy Kaelus TV at the best price",
-                "hero-subtitle": "Live TV, movies, series, and sports. No cuts and in HD!",
-                'hero-mini': "From $250 per Month",
+                "hero-title": "SE&TI REMODELING LLC",
+                "hero-subtitle": "With over 5 years of experience in Clearwater and across Florida, we deliver high-quality craftsmanship and transparent communication. Let’s turn your vision into reality.",
+                'hero-mini': "Transforming Florida Homes Into the Space You’ve Always Wanted",
 
                 'hero-01': "+1,900 TV Channels and Video on Demand, Always Updated",
                 'hero-02': "+24,000 Movies",
@@ -90,7 +90,7 @@ i18n.use(initReactI18next).init({
                 'hero-06': "Stable HD Quality with No Buffering",
                 'hero-07': "Compatible with Most Current Devices",
                 'hero-08': "Everything on Kaelus for Under $8 a Day",
-                'hero-call': "Start Your Free Trial Today!",
+                'hero-call': "Get Your Free Estimate",
 
                 'about-title': "All your favorite platforms' content in one place",
                 'about-subtitle': 'Discover a new digital world with Kaelus TV Plus',
@@ -151,10 +151,6 @@ i18n.use(initReactI18next).init({
             }
         }
     },
-    lng: "es",
-    fallbacking: "es"
+    lng: "en",
+    fallbacking: "en"
 });
-
-//components={{
-   // number: <span className="text--tertiary" />  
- // }}

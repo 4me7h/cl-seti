@@ -65,7 +65,7 @@ const Hero = () => {
                                     </li>
                                 </ul>  */}
                                 <Zoom triggerOnce cascade>
-                                    {/* <h4 className="text--lead text-white"><span className="lighted--tertiary">{t('hero-mini')}</span></h4> */}
+                                    <h4 className="text--small text-white"><span className="lighted--primary">{t('hero-mini')}</span></h4>
                                     <h1 className="text--title text-white">
                                         {t('hero-title')}
                                     </h1>
@@ -82,7 +82,7 @@ const Hero = () => {
                                         <li className="hero__list__item">&rarr; {t('hero-07')}</li>
                                         <li className="hero__list__item">&rarr; {t('hero-08')}</li>
                                     </ul> */}
-                                    {/* <a className="btn btn--primary" target="__blank" href="https://wa.me/+529992709199?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">🔥 {t('hero-call')}</a> */}
+                                    <a className="btn btn--secondary" target="__blank" href="https://wa.me/+529992709199?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">{t('hero-call')}</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (

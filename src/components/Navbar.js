@@ -35,6 +35,7 @@ const Navbar = () => {
                                     <li className="navBar__nav__item"><Link href="#" to="hero" smooth={true} duration={500}  activeClassName="active">Home</Link></li>
                                     <li className="navBar__nav__item"><Link href="#" to="products" smooth={true} duration={500}>Services</Link></li>
                                     <li className="navBar__nav__item"><Link href="#" to="about" smooth={true} duration={500}>About</Link></li>
+                                    <li className="navBar__nav__item"><Link href="#" to="testimonials" smooth={true} duration={500}>Testimonials</Link></li>
                                     <li className="navBar__nav__item"><Link href="#" to="contact" smooth={true} duration={500}>Contacto</Link></li>
                                 </ul>
                             </div>
