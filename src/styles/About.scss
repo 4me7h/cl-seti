@@ -1,10 +1,11 @@
 .about {
     padding: 2rem 0 4rem;
-    background: linear-gradient(to bottom, #121212 0%, #1E3B8B 50%, #0066FF 100%);
-    background: radial-gradient(circle at center, #0066FF 0%, #121212 100%);
-    background: linear-gradient(to bottom, #121212 0%, #1E3B8B 100%);
-    background: radial-gradient(circle at center, #1E3B8B 0%, #121212 100%);
-    background: linear-gradient(to bottom, #121212 0%, #1E3B8B 50%, #121212 100%);
+    background-color: $color-black;
+    // background: linear-gradient(to bottom, #121212 0%, #1E3B8B 50%, #0066FF 100%);
+    // background: radial-gradient(circle at center, #0066FF 0%, #121212 100%);
+    // background: linear-gradient(to bottom, #121212 0%, #1E3B8B 100%);
+    // background: radial-gradient(circle at center, #1E3B8B 0%, #121212 100%);
+    // background: linear-gradient(to bottom, #121212 0%, #1E3B8B 50%, #121212 100%);
 
     &__header {
         padding: 2rem 0;
@@ -28,59 +29,59 @@
         }
     }
 
-    &__partners {
-        background-color: $color-black;
-        @include reset-list; 
-        margin: 0rem auto 4rem;
-        border-radius: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        max-width: 60%;
-        padding: 2rem 0;
-        @include media('md') {
-            max-width: 100%;    
-            justify-content: space-between;
-        }
-        &__item {
-            width: 60%;
-            text-align: center;
-            @include media('md') {
-                width: 20%;
-            }
-            &__img {
-                width: 90%;
-                margin-bottom: 2rem;
-                @include media('md') {
-                    width: 75%;
-                    margin-bottom: 0;
-                }
-                &--apple {
-                    width: 80%;
-                    @include media('md') {
-                        width: 60%;
-                    }
-                }
-                &--android {
-                    width: 55%;
-                    @include media('md') {
-                        width: 40%;
-                    }
-                }
-                &--fire {
-                    width: 70%;
-                    @include media('md') {
-                        width: 70%;
-                    }
-                }
-                &--chrome {
-                    width: 60%;
-                    @include media('md') {
-                        width: 55%;
-                    }
-                }
-            }
-        }
-    }
+    // &__partners {
+    //     background-color: $color-black;
+    //     @include reset-list; 
+    //     margin: 0rem auto 4rem;
+    //     border-radius: 1rem;
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     justify-content: center;
+    //     align-items: center;
+    //     max-width: 60%;
+    //     padding: 2rem 0;
+    //     @include media('md') {
+    //         max-width: 100%;    
+    //         justify-content: space-between;
+    //     }
+    //     &__item {
+    //         width: 60%;
+    //         text-align: center;
+    //         @include media('md') {
+    //             width: 20%;
+    //         }
+    //         &__img {
+    //             width: 90%;
+    //             margin-bottom: 2rem;
+    //             @include media('md') {
+    //                 width: 75%;
+    //                 margin-bottom: 0;
+    //             }
+    //             &--apple {
+    //                 width: 80%;
+    //                 @include media('md') {
+    //                     width: 60%;
+    //                 }
+    //             }
+    //             &--android {
+    //                 width: 55%;
+    //                 @include media('md') {
+    //                     width: 40%;
+    //                 }
+    //             }
+    //             &--fire {
+    //                 width: 70%;
+    //                 @include media('md') {
+    //                     width: 70%;
+    //                 }
+    //             }
+    //             &--chrome {
+    //                 width: 60%;
+    //                 @include media('md') {
+    //                     width: 55%;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }

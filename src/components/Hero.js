@@ -8,10 +8,10 @@ import { useState, useEffect } from 'react';
 
 import { useTranslation, Trans } from 'react-i18next';
 
-import imgBackground01 from '../images/img-01.jpg';
-import imgBackground02 from '../images/img-02.jpg';
-import imgBackground03 from '../images/img-03.jpg';
-import imgBackground04 from '../images/img-04.jpg';
+import imgBackground01 from '../images/img-cover-01.jpg';
+import imgBackground02 from '../images/img-cover-02.jpg';
+import imgBackground03 from '../images/img-cover-03.jpg';
+import imgBackground04 from '../images/img-cover-04.jpg';
 
 const Hero = () => {
     const {t} = useTranslation();
@@ -82,7 +82,7 @@ const Hero = () => {
                                         <li className="hero__list__item">&rarr; {t('hero-07')}</li>
                                         <li className="hero__list__item">&rarr; {t('hero-08')}</li>
                                     </ul> */}
-                                    <a className="btn btn--secondary" target="__blank" href="https://wa.me/+529992709199?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">{t('hero-call')}</a>
+                                    <a className="btn btn--secondary" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (
