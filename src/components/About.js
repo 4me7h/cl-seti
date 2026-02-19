@@ -43,7 +43,7 @@ export default function About() {
       <Container>
         <Row>
           <Col md={9}>
-            <Fade cascade triggerOnce direction="right">
+            <Fade triggerOnce direction="right">
               <div className="about__content">
                 <p className='text--body text-white'>
                   {t('about-text-01')}
@@ -52,11 +52,13 @@ export default function About() {
             </Fade>
           </Col>
           <Col md={{ span: 9, offset: 3 }}>
+            <Fade triggerOnce direction="left">
               <div className="about__content about__content--right">
                 <p className='text--body text-white'>
                   {t('about-text-02')}
                 </p>
               </div>
+            </Fade>
           </Col>  
         </Row>
       </Container>
