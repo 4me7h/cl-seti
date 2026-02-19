@@ -42,18 +42,22 @@ export default function About() {
       />
       <Container>
         <Row>
-          <Col>
-              <Fade cascade triggerOnce direction="right">
-                <div className="about__content">
-                  <p className='text--body text-white mb-5'>
-                    {t('about-text-01')}
-                  </p>
-                  <p className='text--body text-white mb-5'>
-                    {t('about-text-02')}
-                  </p>
-                </div>
-              </Fade>
+          <Col md={9}>
+            <Fade cascade triggerOnce direction="right">
+              <div className="about__content">
+                <p className='text--body text-white'>
+                  {t('about-text-01')}
+                </p>
+              </div>
+            </Fade>
           </Col>
+          <Col md={{ span: 9, offset: 3 }}>
+              <div className="about__content about__content--right">
+                <p className='text--body text-white'>
+                  {t('about-text-02')}
+                </p>
+              </div>
+          </Col>  
         </Row>
       </Container>
     </section>
