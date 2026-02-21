@@ -72,16 +72,6 @@ const Hero = () => {
                                     <h4 className="text--lead text-white">
                                         {t('hero-subtitle')}
                                     </h4>
-                                    {/* <ul className="hero__list">
-                                        <li className="hero__list__item">&rarr; {t('hero-01')}</li>
-                                        <li className="hero__list__item">&rarr; {t('hero-02')}</li>
-                                        <li className="hero__list__item">&rarr; {t('hero-03')}</li>
-                                        <li className="hero__list__item">&rarr; {t('hero-04')}</li>
-                                        <li className="hero__list__item">&rarr; {t('hero-05')}</li>
-                                        <li className="hero__list__item">&rarr; {t('hero-06')}</li>
-                                        <li className="hero__list__item">&rarr; {t('hero-07')}</li>
-                                        <li className="hero__list__item">&rarr; {t('hero-08')}</li>
-                                    </ul> */}
                                     <a className="btn btn--secondary" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
 
                                     <div className="slider-controls">

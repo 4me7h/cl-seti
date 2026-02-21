@@ -1,13 +1,21 @@
 .products {
-    padding: 0 0 4rem;
+    padding: 2rem 0 4rem;
+    background-color: $color-black;
+    // background: linear-gradient(to bottom, #121212 0%, #1E3B8B 50%, #0066FF 100%);
+    // background: radial-gradient(circle at center, #0066FF 0%, #121212 100%);
+    // background: linear-gradient(to bottom, #121212 0%, #1E3B8B 100%);
+    // background: radial-gradient(circle at center, #1E3B8B 0%, #121212 100%);
+    // background: linear-gradient(to bottom, #121212 0%, #1E3B8B 50%, #121212 100%);
+
     &__header {
-        padding: 2rem 1rem;
+        padding: 2rem 0;
         text-align: center;
         &__content {
-            max-width: 850px;
-            margin: 0 auto;;
+            max-width: 970px;
+            margin: 0 auto;
         }
     }
+
     &__buttons {
         display: flex;
         flex-wrap: wrap;

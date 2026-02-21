@@ -83,14 +83,6 @@ i18n.use(initReactI18next).init({
                 "hero-subtitle": "With over 5 years of experience in Clearwater and across Florida, we deliver high-quality craftsmanship and transparent communication. Let’s turn your vision into reality.",
                 'hero-mini': "Transforming Florida Homes Into the Space You’ve Always Wanted",
 
-                // 'hero-01': "+1,900 TV Channels and Video on Demand, Always Updated",
-                // 'hero-02': "+24,000 Movies",
-                // 'hero-03': "+5,400 TV Series",
-                // 'hero-04': "+80 Sports Channels",
-                // 'hero-05': "Kids, Family, and All-Ages Content",
-                // 'hero-06': "Stable HD Quality with No Buffering",
-                // 'hero-07': "Compatible with Most Current Devices",
-                // 'hero-08': "Everything on Kaelus for Under $8 a Day",
                 'hero-call': "Get Your Free Estimate",
 
                 'about-title': "Our Story",
@@ -103,28 +95,27 @@ i18n.use(initReactI18next).init({
               
                 'about-highlight': '+5 Years of Experience | +100 Projects Completed | Licensed & Insured in Florida',
 
-                
+                'services-title': 'What We Do',
+                'services-subtitle': 'Comprehensive Remodeling Solutions for Your Home or Business',
+                'services-subtitle-02': 'No project is too big or too small. We handle everything with precision and care.',
 
-                // 'plan-title': 'We deliver the same excellence across every one of',
-                // 'plan-title-hightlight': 'our plans',
-                // 'plan-subtitle': 'No matter which you choose, you’ll enjoy complete content and premium quality at all times.',
-                // 'plan-subtitle-text': 'Designed to fit your needs, all plans include full access to our services, ensuring an unlimited, restriction‑free experience.',
+                'services-list-01': 'Interior & Exterior Painting:',
+                'services-text-01': 'Refresh your property’s look with high-durability paint and flawless finishes. We use products designed to withstand Florida’s humidity and sun.',
 
-                // 'plan-mini': 'plan',
-                // 'plan-monthly': 'Monthly',
-                // 'plan-annual': 'Annual',
-                // 'plan-quarterly': 'Quarterly',
-                // 'plan-half': 'Half-Yearly',
-                // 'plan-save': 'Best Savings',
-                // 'plan-device': 'Up to 3 simultaneous devices',
-                // 'plan-text': 'With our plans, you can enjoy all your favorite platforms’ content in one place at the best price.',
-                // 'plan-monthly-price': '$17',
-                // 'plan-quarterly-price': '$42',
-                // 'plan-half-price': '$72',
-                // 'plan-annual-price': '$122',
-                // 'plan-price-currency': 'USD',
-                // 'plan-btn': 'I Want This Plan!',
-                // 'plan-text-note': 'With our plans, you can enjoy all your favorite platforms’ content in one place at the best price.',
+                'services-list-02': 'Flooring Installation:',
+                'services-text-02': 'Expert installation of hardwood, laminate, tile, and luxury vinyl plank (LVP). We ensure durability and style that lasts for years.',
+
+                'services-list-03': 'Kitchen Renovation:',
+                'services-text-03': 'We design and build the heart of your home. From custom cabinetry to new outdoor patio kitchens, we create functional, beautiful spaces.',
+
+                'services-list-04': 'Full Home Renovation:',
+                'services-text-04': 'Dreaming of a total transformation? We manage the entire process, from initial design to final construction, remodeling your home exactly the way you want it.',
+
+                'services-list-05': 'Plumbing & Electrical:',
+                'services-text-05': 'Reliable repairs and new installations. We ensure all work meets Florida building codes for your safety and peace of mind.',
+
+
+               
 
                
                

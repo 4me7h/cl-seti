@@ -2,78 +2,74 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { useTranslation } from 'react-i18next';
+import Card from './Cards';
 
-// import icon01 from '../images/icon-01.png';
-// import icon02 from '../images/icon-02.png';
-// import icon03 from '../images/icon-03.png';
-
-import { Fade } from 'react-awesome-reveal';
-
-// import { FaBullhorn, FaFilter, FaTrophy } from 'react-icons/fa';
+import image01 from '../images/img-01.jpg';
+import image02 from '../images/img-02.jpg';
+import image03 from '../images/img-03.jpg';
+import image04 from '../images/img-04.jpg';
+import image05 from '../images/img-05.jpg';
 
 export default function Services() {
+  const {t} = useTranslation();
   return (
     <div className="services">
-      {/* <Banner 
-        imgBanner={imgBanner}
-        title = {<span>Our <span className='text--secondary'>Services</span></span>}
-        subtitle = {<span>We provide cutting-edge <span className="text--secondary">solutions to help your business</span> excel in today's competitive landscape.</span>}
-      /> */}
       <Container>
         <Row>
           <Col>
             <div className="services__container">
+              <div className="services__header text-center">
+                <h2 className="text--subtitle text-white">
+                  {t('services-title')}
+                </h2>
+                <h4 className="text--slogan text-white">
+                  {t('services-subtitle')}
+                </h4>
+                <h4 className="text--lead text--quaternary">
+                  {t('services-subtitle-02')}
+                </h4>
+              </div>
               <div className="services__content">
-                <Fade cascade direction='right' triggerOnce>
-                  <div className='headercontent__content'>
-                    <h3 className="text--subtitle text-center text-uppercase text-white"><em>Our <span className="lighted lighted--secondary">Services</span></em></h3>
-                  </div>
-                  <ul className="boxes mb-5 pb-5">
-                    <li className="boxes__item">
-                      <h4 className="text--lead boxes__title">Lead Generation with AI:</h4>
-                      <p className='text--body boxes__content'>Drive a steady stream of high-quality leads using advanced AI technology and strategic ad campaigns.</p>
-                    </li>
-                    <li className="boxes__item">
-                      <h4 className="text--lead boxes__title">Quote-Ready Leads:</h4>
-                      <p className='text--body boxes__content'>Our AI system qualifies leads and ensures they are ready to take action, saving you time and effort.</p>
-                    </li>
-                    <li className="boxes__item">
-                      <h4 className="text--lead boxes__title">Done-For-You Sales Pipeline:</h4>
-                      <p className='text--body boxes__content'>We manage every step from lead generation to appointment setting, integrating everything into your CRM with GoHighLevel.</p>
-                    </li>
-                  </ul>
-                </Fade>
-                <div className='headercontent__content'>
-                  <h3 className="text--subtitle text-center text-uppercase text-white"><em>How We Deliver <span className="lighted lighted--secondary">High-Quality Leads</span></em></h3>
-                </div>
-                <ul className="boxes">
-                  <li className="boxes__item">
-                    <div className="boxes__icon">
-                      {/* <img src={icon01} alt="icon-01" className="boxes__img"/> */}
-                      {/* <FaBullhorn size={75}/> */}
-                    </div>
-                    <h4 className="text--lead boxes__title">We Launch Targeted Ads:</h4>
-                    <p className='text--body boxes__content'>Our AI-optimized campaigns ensure your business is seen by homeowners actively seeking your services.</p>
+                <ul className="services__list">
+                  <li className="services__item">
+                    <Card 
+                      image = {image01}
+                      name = {[t('services-list-01')]}
+                      description = {[t('services-text-01')]}
+                    />
                   </li>
-                  <li className="boxes__item">
-                    <div className="boxes__icon">
-                      {/* <img src={icon02} alt="icon-01" className="boxes__img"/> */}
-                      {/* <FaFilter size={75}/> */}
-                    </div>
-                    <h4 className="text--lead boxes__title">AI Qualifies Leads:</h4>
-                    <p className='text--body boxes__content'>Our system engages, nurtures, and qualifies leads via automated text, email, and soon, AI-powered phone calls.</p>
+                  <li className="services__item">
+                    <Card 
+                      image = {image02}
+                      name = {[t('services-list-02')]}
+                      description = {[t('services-text-02')]}
+                    />
                   </li>
-                  <li className="boxes__item">
-                    <div className="boxes__icon">
-                      {/* <img src={icon03} alt="icon-01" className="boxes__img"/> */}
-                      {/* <FaTrophy size={75}/> */}
-                    </div>
-                    <h4 className="text--lead boxes__title">You Close Deals:</h4>
-                    <p className='text--body boxes__content'>We handle everything up to setting appointments, leaving you to focus on what you do best—closing deals and growing your business.</p>
+                  <li className="services__item">
+                    <Card 
+                      image = {image03}
+                      name = {[t('services-list-03')]}
+                      description = {[t('services-text-03')]}
+                    />
+                  </li>
+                  <li className="services__item">
+                    <Card 
+                      image = {image04}
+                      name = {[t('services-list-04')]}
+                      description = {[t('services-text-04')]}
+                    />
+                  </li>
+                  <li className="services__item">
+                    <Card 
+                      image = {image05}
+                      name = {[t('services-list-05')]}
+                      description = {[t('services-text-05')]}
+                    />
                   </li>
                 </ul>
-                <div className="about__content text-center">
-                  <a className="btn btn--secondary" target="__blank" href="tel:+17025780098">Get Started</a>
+                <div className="services__content text-center">
+                  <a className="btn btn--secondary" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
                 </div>
               </div>
             </div>
