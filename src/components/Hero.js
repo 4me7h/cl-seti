@@ -65,14 +65,14 @@ const Hero = () => {
                                     </li>
                                 </ul>  */}
                                 <Zoom triggerOnce cascade>
-                                    <h4 className="text--small text-white"><span className="lighted--primary">{t('hero-mini')}</span></h4>
+                                    <h4 className="text--small text-white"><span className="lighted--primary lighted--primary--dark">{t('hero-mini')}</span></h4>
                                     <h1 className="text--title text-white">
                                         {t('hero-title')}
                                     </h1>
                                     <h4 className="text--lead text-white">
                                         {t('hero-subtitle')}
                                     </h4>
-                                    <a className="btn btn--secondary" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
+                                    <a className="btn btn--secondary btn--secondary--dark" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (

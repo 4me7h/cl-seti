@@ -23,11 +23,11 @@ export default function About() {
           <Col>
             <Fade cascade triggerOnce direction="left">
             <div className="about__header">
-              <h2 className="text--subtitle text-center text--white">{t('about-title')}</h2>
-              <h4 className="text--slogan text--white">
+              <h2 className="text--subtitle text-center text--dark-primary">{t('about-title')}</h2>
+              <h4 className="text--slogan text--dark-secondary">
                 {t('about-subtitle')}
               </h4>
-              <h4 className="text--lead text--quaternary">
+              <h4 className="text--lead text--dark-secondary-hover">
                 {t('about-subtitle-02')}
               </h4>
             </div>
@@ -43,7 +43,7 @@ export default function About() {
           <Col md={6}>
             <Fade triggerOnce direction="right">
               <div className="about__content">
-                <p className='text--body text-white'>
+                <p className='text--body text--dark-primary'>
                   {t('about-text-01')}
                 </p>
                 
@@ -53,7 +53,7 @@ export default function About() {
           <Col md={6}>
             <Fade triggerOnce direction="left">
               <div className="about__content">
-                <p className='text--body text-white'>
+                <p className='text--body text--dark-primary'>
                 {t('about-text-02')}
                 </p>
               </div>
@@ -61,12 +61,10 @@ export default function About() {
           </Col>
           <Col>
             <Fade triggerOnce direction="right">
-              <div className="about__content">
-                <p className='text--body text-white text-center'>
-                  <span className="lighted--primary">
-                    {t('about-highlight')}
-                  </span>
-                </p>
+              <div className="about__content mt-5">
+                <h4 className='text--lead text--dark-secondary-hover text-center'>
+                  {t('about-highlight')}
+                </h4>
               </div>
             </Fade>
           </Col>

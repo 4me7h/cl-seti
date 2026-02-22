@@ -66,6 +66,10 @@ span {
             padding: 0.125rem 0.75rem;
             background-color: $color-primary;
             color: $color-white;
+            &--dark {
+                background-color: $dark-bg-primary;
+                color: $color-white;
+            }
         }
         &--secondary {
             color: $color-secondary;
@@ -184,6 +188,22 @@ span {
     
     &--dark-secondary {
         color: $dark-text-secondary;
+    }
+
+    &--dark-quaternary {
+        color: $dark-text-quaternary;
+    }
+
+    &--dark-primary-hover {
+        color: $dark-primary-hover;
+    }
+
+    &--dark-secondary-hover {
+        color: $dark-secondary-hover;
+    }
+
+    &--dark-disabled {
+        color: $dark-disabled;
     }
 }
 

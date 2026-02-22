@@ -29,6 +29,15 @@
             color: $color-white !important;
             background-color: darken($color-secondary, 10%) !important;
         }
+        &--dark {
+            @include link { 
+                background-color: $dark-primary-hover;
+            }          
+            @include hover {
+                color: $color-white !important;
+                background-color: darken($dark-primary-hover, 6%) !important;
+            }
+        }
     }
 
     &--tertiary {

@@ -20,13 +20,13 @@ export default function Services() {
           <Col>
             <div className="services__container">
               <div className="services__header text-center">
-                <h2 className="text--subtitle text-white">
+                <h2 className="text--subtitle text--dark-primary">
                   {t('services-title')}
                 </h2>
-                <h4 className="text--slogan text-white">
+                <h4 className="text--slogan text--dark-secondary">
                   {t('services-subtitle')}
                 </h4>
-                <h4 className="text--lead text--quaternary">
+                <h4 className="text--lead text--dark-quaternary">
                   {t('services-subtitle-02')}
                 </h4>
               </div>
@@ -69,7 +69,7 @@ export default function Services() {
                   </li>
                 </ul>
                 <div className="services__content text-center">
-                  <a className="btn btn--secondary" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
+                  <a className="btn btn--secondary btn--secondary--dark" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
                 </div>
               </div>
             </div>
