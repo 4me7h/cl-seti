@@ -1,6 +1,66 @@
 .contact {
     padding: 2rem 0 4rem;
-    background-color: $color-black-secondary;
+    background-color: $dark-bg-primary;
+    border-top: 1px solid $color-primary;
+
+    &__header {
+        padding: 2rem 0;
+        text-align: center;
+        max-width: 970px;
+        margin: 0 auto;
+    }
+
+    &__content {
+        margin: 0 auto 1rem;
+        @include media('md') {
+            margin-bottom: 1.5rem;
+        }
+        &__left {
+            text-align: left;
+        }
+        &--right {
+            text-align: right;
+        }
+    }
+
+    &__information {
+        @include reset-list;
+        width: 100%;
+        background-color: $dark-bg-secondary;
+        display: flex;
+        flex-direction: column;
+
+        &__item {
+           
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            
+            &__icon {
+                width: 20%;
+                color: $color-primary;
+            }
+            
+        }
+        &__title {
+            display: block;
+            color: $dark-text-quaternary;
+            text-transform: uppercase;
+            font-size: $fs-sm;
+            font-weight: $fw-6;
+            margin-bottom: 1rem;
+        }
+
+        &__text {
+            display: block;
+            color: $dark-text-secondary;
+            font-size: $fs-sm;
+            @include media('md') {
+                font-size: $fs-sm;
+            }
+        }
+        
+    }
 
     // &__list {
     //     @include reset-list;

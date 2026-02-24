@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import { Fade } from 'react-awesome-reveal';
 
 import { useTranslation } from 'react-i18next';
+import MapComponent from './MapComponent';
 
 // import iconMail from '../images/icon-mail.png';
 // import iconWhats from '../images/icon-whats.png';
@@ -15,20 +16,20 @@ const Contact = () => {
         <section className='contact'>
             <Container>
                 <Row>
-                    <Col>
+                    <Col md={12}>
                         <div className="headercontent__container">
                             <div className="headercontent__header">
                                 <Fade cascade triggerOnce direction="up"> 
                                 <div className="about__header">
-                                    <div className="about__header__content mb-5">
-                                        <h2 className="text--subtitle text-center text--white">{t('contact-title')}</h2>
-                                        <p className='text--body text-center text-white'>
-                                        <strong>{t('contact-subtitle-01')}</strong> {t('contact-subtitle-02')}<br />
-                                        <strong>{t('contact-subtitle-03')}</strong> {t('contact-subtitle-04')}
-                                        </p>
-                                    </div>
-                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+529992709199?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">🚀 {t('contact-cta')}</a>
+                                    <h2 className="text--subtitle text-center text--dark-primary">{t('contact-title')}</h2>
+                                    <h4 className="text--slogan text--dark-secondary">
+                                        {t('contact-subtitle')}
+                                    </h4>
+                                    <h4 className="text--lead text--dark-secondary-hover">
+                                        {t('contact-subtitle-02')}
+                                    </h4>
                                 </div>
+                               
                                 {/* <ul className="contact__buttons">
                                     <li className='contact__buttons__item'>
                                         <a className="btn btn--secondary" target="__blank" href="https://wa.me/+5219613037177?text=Lobo%20Tours:%20Estoy%20interesado%20en%20un%20viaje%20de%20clase%20económica">Reserva Aquí</a>
@@ -39,6 +40,45 @@ const Contact = () => {
                                 </ul> */}
                                 </Fade>
                             </div>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className='d-flex'>
+                    <Col md={6} className='d-flex'>
+                        <MapComponent />
+                    </Col>
+                    <Col md={6} className='d-flex'>
+                        <ul className="contact__information">
+                            <li className='contact__information__item'>
+                                <span className='contact__information__title'>
+                                    {t('contact-information-01')}
+                                </span>
+                                <span className='contact__information__text'>
+                                    {t('contact-information-text-01')} <br />
+                                    {t('contact-information-text-01-02')}
+                                </span>
+                            </li>
+                            <li className='contact__information__item'>
+                                <span className='contact__information__title'>
+                                    {t('contact-information-02')}
+                                </span>
+                                <span className='contact__information__text'>
+                                    {t('contact-information-text-02')}
+                                </span>
+                            </li>
+                            <li className='contact__information__item'>
+                                <span className='contact__information__title'>
+                                    {t('contact-information-03')}
+                                </span>
+                                <span className='contact__information__text'>
+                                    {t('contact-information-text-03')}
+                                </span>
+                            </li>
+                        </ul>
+                    </Col>
+                    <Col>
+                        <div className="contact__content text-center mt-5">
+                            <a className="btn btn--secondary btn--secondary--dark" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
                         </div>
                     </Col>
                 </Row>

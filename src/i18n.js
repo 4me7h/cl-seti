@@ -113,19 +113,22 @@ i18n.use(initReactI18next).init({
 
                 'services-list-05': 'Plumbing & Electrical:',
                 'services-text-05': 'Reliable repairs and new installations. We ensure all work meets Florida building codes for your safety and peace of mind.',
-
-
                
 
-               
-               
-
-                'contact-title': 'Need help or want to activate your service?',
-                'contact-subtitle-01': 'Support hours: 24/7',
-                'contact-subtitle-02': '(immediate support via WhatsApp)',
-                'contact-subtitle-03': 'Get your questions answered instantly',
-                'contact-subtitle-04': '— Setup, payments, or technical support.',
+                'contact-title': 'Let’s Build Something Great Together',
+                'contact-subtitle': 'Contact Us for a Free, No-Obligation Estimate',
+                'contact-subtitle-02': 'Tell us about your project, and we’ll get back to you with a clear and detailed quote. No hidden costs, just honest answers.',
                 'contact-cta': 'Activate my FREE Trial',
+
+                'contact-information-01': 'Visit Us:',
+                'contact-information-text-01': '2266 Gulf to Bay Boulevard Lt. 345',
+                'contact-information-text-01-02': 'Clearwater, Florida. Zip. 33765',
+
+                'contact-information-02': 'Call or Text Us:',
+                'contact-information-text-02': '(727) 340-5713',
+
+                'contact-information-03': 'Email:',
+                'contact-information-text-03': 'irenetoledo@seti.company',
             }
         }
     },
