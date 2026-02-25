@@ -35,11 +35,9 @@ const Contact = () => {
                     </Col>
                 </Row>
                 <Row className='d-flex'>
-                    
+
                     <Col md={6} className='d-flex mb-5'>
-                        <Fade triggerOnce direction="right"> 
-                            <MapComponent />
-                        </Fade>
+                        <MapComponent />
                     </Col>
                     <Col md={6} className='d-flex mb-5'>
                         <Fade cascade triggerOnce direction="left"> 
