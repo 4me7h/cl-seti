@@ -113,6 +113,8 @@ i18n.use(initReactI18next).init({
 
                 'services-list-05': 'Plumbing & Electrical:',
                 'services-text-05': 'Reliable repairs and new installations. We ensure all work meets Florida building codes for your safety and peace of mind.',
+
+                'service-call': 'Start Your Project Today',
                
 
                 'contact-title': 'Let’s Build Something Great Together',
@@ -129,6 +131,8 @@ i18n.use(initReactI18next).init({
 
                 'contact-information-03': 'Email:',
                 'contact-information-text-03': 'irenetoledo@seti.company',
+
+                'contact-call': 'Get a Free Consultation',
             }
         }
     },

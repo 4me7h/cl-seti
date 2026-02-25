@@ -25,7 +25,7 @@ const Footer = () => {
                 </li>
             </ul> */}
             <p className="footer__copy__text">
-                Kaelus TV Plus - {year}
+                SE&TI Remodeling - {year}
             </p>
         </div>
     )

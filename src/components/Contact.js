@@ -78,7 +78,7 @@ const Contact = () => {
                     </Col>
                     <Col>
                         <div className="contact__content text-center mt-5">
-                            <a className="btn btn--secondary btn--secondary--dark" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('hero-call')}</a>
+                            <a className="btn btn--secondary btn--secondary--dark" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('contact-call')}</a>
                         </div>
                     </Col>
                 </Row>
