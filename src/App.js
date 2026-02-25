@@ -15,14 +15,12 @@ import './i18n';
 function App() {
   return (
     <ParallaxProvider>
-    <>
       <Header />
       <Hero />
       <About />
       <Services />
       <Contact />
       <Footer />
-    </>
     </ParallaxProvider>
   );
 }
