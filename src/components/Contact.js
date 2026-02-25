@@ -44,10 +44,11 @@ const Contact = () => {
                     </Col>
                 </Row>
                 <Row className='d-flex'>
-                    <Col md={6} className='d-flex'>
+                    <Fade cascade triggerOnce direction="left"> 
+                    <Col md={6} className='d-flex mb-5'>
                         <MapComponent />
                     </Col>
-                    <Col md={6} className='d-flex'>
+                    <Col md={6} className='d-flex mb-5'>
                         <ul className="contact__information">
                             <li className='contact__information__item'>
                                 <span className='contact__information__title'>
@@ -77,10 +78,11 @@ const Contact = () => {
                         </ul>
                     </Col>
                     <Col>
-                        <div className="contact__content text-center mt-5">
+                        <div className="contact__content text-center">
                             <a className="btn btn--secondary btn--secondary--dark" target="__blank" href="https://wa.me/+17273405713?text=Hi,%20I'm%20interested%20in%20the%20remodelling%20service">{t('contact-call')}</a>
                         </div>
                     </Col>
+                    </Fade>
                 </Row>
             </Container>
         </section>
