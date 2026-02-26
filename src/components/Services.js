@@ -26,7 +26,7 @@ export default function Services() {
                 <h4 className="text--slogan text--dark-secondary">
                   {t('services-subtitle')}
                 </h4>
-                <h4 className="text--lead text--dark-quaternary">
+                <h4 className="text--lead text--dark-secondary">
                   {t('services-subtitle-02')}
                 </h4>
               </div>

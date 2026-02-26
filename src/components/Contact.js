@@ -25,7 +25,7 @@ const Contact = () => {
                                         <h4 className="text--slogan text--dark-secondary">
                                             {t('contact-subtitle')}
                                         </h4>
-                                        <h4 className="text--lead text--dark-secondary-hover">
+                                        <h4 className="text--lead text--dark-secondary">
                                             {t('contact-subtitle-02')}
                                         </h4>
                                     </div>

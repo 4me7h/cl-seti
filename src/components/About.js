@@ -27,7 +27,7 @@ export default function About() {
               <h4 className="text--slogan text--dark-secondary">
                 {t('about-subtitle')}
               </h4>
-              <h4 className="text--lead text--dark-secondary-hover">
+              <h4 className="text--lead text--dark-secondary">
                 {t('about-subtitle-02')}
               </h4>
             </div>
@@ -62,7 +62,7 @@ export default function About() {
           <Col>
             <Fade triggerOnce direction="right">
               <div className="about__content mt-5">
-                <h4 className='text--lead text--dark-secondary-hover text-center'>
+                <h4 className='text--lead text--dark-secondary text-center'>
                   {t('about-highlight')}
                 </h4>
               </div>
